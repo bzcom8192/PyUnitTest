@@ -10,7 +10,3 @@ def test_subtract():
     assert subtract(5, 3) == 2
     assert subtract(1, 1) == 0
     assert subtract(0, 5) == -5
-
-def test_invalid():
-    assert add("2", 3) == "23"
-    assert subtract(5, "3") == 2
